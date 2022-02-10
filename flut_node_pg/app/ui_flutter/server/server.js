@@ -30,4 +30,4 @@ app.post("/signup", async(req, res) => {
 
 })
 
-app.listen(3000, () => console.log('Server has been working on 5000 PORT'))
+app.listen(3000, () => console.log('Server has been working on 3000 PORT'))

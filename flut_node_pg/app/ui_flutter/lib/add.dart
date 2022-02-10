@@ -114,7 +114,7 @@ class _AddNewsState extends State<AddNews> {
 
 signup(number, password) async {
   //127.0.0.1:5000
-  var url = Uri.parse("http://127.0.0.1:3000");
+  var url = Uri.parse("http://5.180.136.193:3000");
     final http.Response response = await http.post(url, headers: 
     <String,String>{
       'Content-Type': 'application/json; charset=UTF-8',},
